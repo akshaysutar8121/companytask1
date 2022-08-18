@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="m-2 bg-dark bg-opacity-9 text-white">
+    <!-- first row start-->
+    <div class="container text-center">
+        <div
+            class="row mt-4 gy-3 p-3 gy-sm-1 border border-white flex flex-column flex-sm-row justify-content-center align-items-center">
+            <!-- carosuel slider -->
+            <div class="col-12 col-sm-8 min-h-75 p-3">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://wallpapercave.com/dwp1x/wp10979592.jpg" class="d-block w-100"
+                                alt="no_image" class="image-fluid">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://wallpapercave.com/dwp1x/wp10956697.jpg" class="d-block w-100"
+                                alt="no_image">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://wallpapercave.com/dwp1x/wp10728676.jpg" class="d-block w-100"
+                                alt="no_image">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <!-- text box -->
+            <div class="card shadow-lg mx-2 text-capitalize  bg-dark bg-opacity-10" style="width: 18rem;">
+                <img src="https://wallpapercave.com/dwp1x/wp10960994.jpg" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Marvel Movies</h5>
+                    <p class="card-text">this are some examples of marvel movies.Moon knight is the latest marvel
+                        movie.there are lot more movies in marvel cinamatic universe</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <!-- text box end -->
+
+        </div>
+        <!-- first row end-->
+        <!-- second row start -->
+        <div class="row border border-white mt-4 p-4">
+            <h3 class=" m-auto text-uppercase mb-2"><u>Description</u></h3>
+            <p class="text-small fw-semibold fst-italic text-start text-sm-center">Lorem, ipsum dolor sit amet
+                consectetur adipisicing elit. Ab, odioeligendi earum commodi ipsum, nequeLorem ipsum dolor, sit amet
+                consectetur adipisicing elit. Debitis necessitatibus autem sed laborum quamab excepturi corporis,
+                repellendus ipsum eum quisquam mollitia neque veniam? repudiandae nulla ducimuspraesentium doloribus
+                porro quisquam. Officia, placeat?</p>
+        </div>
+        <!-- second row end -->
+        <!-- third row start-->
+        <!-- sample products 3 at a time -->
+        <div id="carouselExampleSlidesOnly" class="carousel slide mt-4" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="container carousel-item active">
+                    <div class="row gx-5">
+                        <div class="row gx-5">
+                            <div class="childs col  m-2"><img src="https://wallpapercave.com/dwp1x/wp10739014.jpg" class="img-fluid rounded" alt=""></div>
+                            <div class="childs col  m-2"><img src="https://wallpapercave.com/dwp1x/wp10739014.jpg" class="img-fluid rounded" alt=""></div>
+                            <div class="childs d-sm-block d-none col  m-2"><img src="https://wallpapercave.com/dwp1x/wp10739014.jpg" class="img-fluid rounded" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container carousel-item">
+                    <div class="row gx-5">
+                        <div class="childs col  m-2"><img src="https://wallpapercave.com/dwp1x/wp4560684.jpg" class="img-fluid rounded" alt=""></div>
+                        <div class="childs col  m-2"><img src="https://wallpapercave.com/dwp1x/wp4560684.jpg" class="img-fluid rounded" alt=""></div>
+                        <div class="childs d-sm-block d-none col  m-2"><img src="https://wallpapercave.com/dwp1x/wp4560684.jpg" class="img-fluid rounded" alt=""></div>
+                    </div>
+                </div>
+                <div class="container carousel-item">
+                    <div class="row gx-5">
+                        <div class="childs col  m-2"><img src="https://wallpapercave.com/dwp1x/wp10660292.png" class="img-fluid rounded" alt=""></div>
+                        <div class="childs col  m-2"><img src="https://wallpapercave.com/dwp1x/wp10660292.png" class="img-fluid rounded" alt=""></div>
+                        <div class="childs d-sm-block d-none col  m-2"><img src="https://wallpapercave.com/dwp1x/wp10660292.png" class="img-fluid rounded" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- third row end-->
+    </div>
+
+
+    <!-- script cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
